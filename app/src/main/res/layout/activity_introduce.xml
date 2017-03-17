@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_introduce"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_container"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+        android:gravity="center"/>
+    
+    <TextView
+        android:id="@+id/btn_experience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:text="App简单浏览"
+        android:textStyle="italic|bold"
+        android:textSize="30sp"
+        android:clickable="false"
+        android:textColor="#F39526"/>
+</RelativeLayout>

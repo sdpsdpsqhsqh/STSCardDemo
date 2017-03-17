@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="用户号"
+            android:textColor="@color/colorProject"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/et_operator_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:hint="输入用户名"
+            android:textColorHint="#20323232"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#20323232" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="姓名"
+            android:textColor="@color/colorProject"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/et_operator_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:hint="输入姓名"
+            android:textColorHint="#20323232"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#20323232" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="身份证号"
+            android:textColor="@color/colorProject"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/et_operator_numID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:hint="输入身份证号"
+            android:textColor="@android:color/darker_gray"
+            android:textColorHint="#20323232"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#20323232" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="电话号码"
+            android:textColor="@color/colorProject"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/et_operator_num_readCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:hint="输入电话号码"
+            android:textColorHint="#20323232"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#20323232" />
+
+    <Button
+        android:id="@+id/btn_go_to_buy"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorProject"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:text="去购买"/>
+</LinearLayout>

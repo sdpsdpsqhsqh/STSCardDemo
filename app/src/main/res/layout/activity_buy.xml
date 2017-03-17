@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="用户号"
+            android:textColor="@color/colorProject"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_operator_num_readCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="1564312334"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#20323232" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="姓名"
+            android:textColor="@color/colorProject"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_operator_name_readCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="宋东盼"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#20323232" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="身份证号"
+            android:textColor="@color/colorProject"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_operator_cardID_readCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="3123421234412312"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#20323232" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="电话号码"
+            android:textColor="@color/colorProject"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_operator_phone_num_readCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="13423467892"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#20323232" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="上次购买时间"
+            android:textColor="@color/colorProject"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_operator_last_time_readCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="2017年12月22日 13:23:11"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#20323232" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="上次购买金额"
+            android:textColor="@color/colorProject"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_operator_last_money_readCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="32$"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+        <RadioGroup
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rb_count"
+                android:layout_marginLeft="50dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:text="按量购买"/>
+            <RadioButton
+                android:id="@+id/rb_money"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:text="按金额购买"/>
+        </RadioGroup>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColorHint="@android:color/darker_gray"
+            android:hint="输入您要购买的量"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_buy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorProject"
+        android:text="购买"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+</LinearLayout>

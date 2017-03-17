@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_operator_account"
+        style="@style/OperatorRelativeLayoutStyle">
+
+        <ImageView
+            android:id="@+id/iv_account"
+            style="@style/OperatorImageViewStyle"
+            android:src="@drawable/zhanghao" />
+
+        <TextView
+            style="@style/OperatorTextViewStyle"
+            android:layout_toRightOf="@id/iv_account"
+            android:text="@string/OperatorAccount"
+            android:textSize="18sp" />
+
+        <ImageButton style="@style/OperatorImageButtonStyle" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_operator_balance"
+        style="@style/OperatorRelativeLayoutStyle"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/iv_balance"
+            style="@style/OperatorImageViewStyle"
+            android:src="@drawable/yue" />
+
+        <TextView
+            style="@style/OperatorTextViewStyle"
+            android:layout_toRightOf="@id/iv_balance"
+            android:text="@string/OperatorBalance"
+            android:textSize="15sp" />
+
+        <ImageButton style="@style/OperatorImageButtonStyle" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_operator_bill"
+        style="@style/OperatorRelativeLayoutStyle">
+
+        <ImageView
+            android:id="@+id/iv_bill"
+            style="@style/OperatorImageViewStyle"
+            android:src="@drawable/zhangdan" />
+
+        <TextView
+            style="@style/OperatorTextViewStyle"
+            android:layout_toRightOf="@id/iv_bill"
+            android:text="@string/OperatorBill"
+            android:textSize="15sp" />
+
+        <ImageButton style="@style/OperatorImageButtonStyle" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_operator_connect"
+        style="@style/OperatorRelativeLayoutStyle"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/iv_connect"
+            style="@style/OperatorImageViewStyle"
+            android:src="@drawable/dayinji" />
+
+        <TextView
+            style="@style/OperatorTextViewStyle"
+            android:layout_toRightOf="@id/iv_connect"
+            android:text="@string/ConnectPrinter"
+            android:textSize="15sp" />
+
+        <ImageButton style="@style/OperatorImageButtonStyle" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_operator_settings"
+        style="@style/OperatorRelativeLayoutStyle"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/iv_settings"
+            style="@style/OperatorImageViewStyle"
+            android:src="@drawable/shezhi" />
+
+        <TextView
+            style="@style/OperatorTextViewStyle"
+            android:layout_toRightOf="@id/iv_settings"
+            android:text="@string/setting"
+            android:textSize="15sp" />
+
+        <ImageButton style="@style/OperatorImageButtonStyle" />
+    </RelativeLayout>
+</LinearLayout>

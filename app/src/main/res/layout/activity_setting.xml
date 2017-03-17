@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <RelativeLayout
+        android:id="@+id/cv_set_port_address"
+        style="@style/OperatorRelativeLayoutStyle"
+        android:background="@color/colorWhite">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="服务器地址"
+            android:textColor="#323232"
+            android:textSize="18sp" />
+        <ImageButton style="@style/OperatorImageButtonStyle" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:id="@+id/cv_about_us"
+        style="@style/OperatorRelativeLayoutStyle"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="关于我们"
+            android:textColor="#323232"
+            android:textSize="18sp" />
+
+        <ImageButton style="@style/OperatorImageButtonStyle" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,123 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorProject</item>
+        <item name="colorPrimaryDark">@color/colorProject</item>
+        <item name="colorAccent">@color/colorProject</item>
+    </style>
+    <style name="SplashTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorProject</item>
+    </style>
+    <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorProject</item>
+        <item name="colorPrimaryDark">@color/cardview_shadow_start_color</item>
+        <item name="colorAccent">@color/colorProject</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="LinearLayout_Base_Theme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="TextView_Base_Theme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="CardView_Base_Theme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+    <style name="TextView_Left_Style">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorProject</item>
+    </style>
+    <style name="TextView_Right_Style">
+        <item name="android:layout_gravity">center|right</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="OperatorRelativeLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="OperatorImageViewStyle">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+    </style>
+
+    <style name="OperatorTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/colorTextColor</item>
+    </style>
+    <style name="OperatorImageButtonStyle">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_width">23dp</item>
+        <item name="android:background">@drawable/jinru</item>
+        <item name="android:layout_gravity">end|right</item>
+        <item name="android:layout_height">23dp</item>
+    </style>
+
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+    <!--底部弹框-->
+    <style name="BottomDialog" parent="@style/AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!--自定义checkbox布局-->
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/check_bg</item>
+    </style>
+</resources>

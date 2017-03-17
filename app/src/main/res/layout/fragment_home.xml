@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/colorProject">
+        <ImageView
+            android:id="@+id/operator_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:src="@drawable/loginlogo_ls" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/operator_icon"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="25dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="账户名  "
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="账户余额"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_operator_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="123456567"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_operator_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="33121元"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <GridView
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_height="160dp"
+        android:numColumns="2"
+        android:cacheColorHint="#00000000"
+        android:gravity="center_vertical"
+        android:horizontalSpacing="20dp"
+        android:verticalSpacing="20dp"
+        android:id="@+id/girdview"/>
+</LinearLayout>

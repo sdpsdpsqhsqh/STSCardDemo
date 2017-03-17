@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_click"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_weekday_bill_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#323232"
+            android:textSize="16sp"
+            android:text="今天"
+            android:layout_marginBottom="3dp"/>
+        <TextView
+            android:id="@+id/tv_time_bill_month"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#99323232"
+            android:textSize="15sp"
+            android:text="06:46"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_money_bill_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="-50￥"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@android:color/black"/>
+
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:src="@drawable/jinru"
+        android:layout_marginRight="10dp"/>
+</LinearLayout>
