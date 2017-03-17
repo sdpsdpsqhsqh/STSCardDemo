@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lib_MpChart/Lib_MpChart.iml" filepath="$PROJECT_DIR$/Lib_MpChart/Lib_MpChart.iml" />
       <module fileurl="file://$PROJECT_DIR$/STSCardDemo.iml" filepath="$PROJECT_DIR$/STSCardDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/StickyListHeaders_lib/StickyListHeaders_lib.iml" filepath="$PROJECT_DIR$/StickyListHeaders_lib/StickyListHeaders_lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
