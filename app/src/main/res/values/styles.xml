@@ -14,7 +14,7 @@
     <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorProject</item>
-        <item name="colorPrimaryDark">@color/cardview_shadow_start_color</item>
+        <item name="colorPrimaryDark">@color/colorProject_light</item>
         <item name="colorAccent">@color/colorProject</item>
     </style>
 
@@ -119,5 +119,11 @@
     <!--自定义checkbox布局-->
     <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
         <item name="android:button">@drawable/check_bg</item>
+    </style>
+
+    <style name="Widget.MaterialProgressBar.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:minHeight">2dp</item>
+        <item name="android:maxHeight">2dp</item>
     </style>
 </resources>

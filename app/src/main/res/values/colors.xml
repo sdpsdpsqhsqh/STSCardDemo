@@ -35,4 +35,7 @@
     <color name="bg_btn">#237aec</color>
     <color name="blue_light">#2e88ff</color>
     <color name="colorstatus">#3da1ff</color>
+
+    <color name="webTitle">#52ADE7</color>
+    <color name="webContent">#75BDEC</color>
 </resources>

@@ -43,20 +43,18 @@
             android:textColor="@color/Color_Gray"
             android:text="@string/CompanyAddress"/>
         <TextView
-            android:id="@+id/tv_call_phone_our_company"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
             android:textSize="16sp"
-            android:textColor="@color/colorProject"
+            android:textColor="@color/Color_Gray"
             android:text="@string/CompanyTelphone"/>
         <TextView
-            android:id="@+id/tv_view_company_web_address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
             android:textSize="16sp"
-            android:textColor="@color/colorProject_light"
+            android:textColor="@color/Color_Gray"
             android:text="@string/CompanySite"/>
         <TextView
             android:layout_width="wrap_content"
@@ -65,31 +63,5 @@
             android:textSize="16sp"
             android:textColor="@color/Color_Gray"
             android:text="@string/CompanyEmail"/>
-
-        <RelativeLayout
-            android:layout_marginTop="30dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:id="@+id/iv_link"
-                android:layout_alignParentRight="true"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/link"
-                android:scaleType="centerCrop"/>
-
-            <ImageView
-                android:id="@+id/iv_facebook"
-                android:layout_marginRight="20dp"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/facebook"
-                android:layout_toLeftOf="@id/iv_link"
-                android:scaleType="centerCrop"/>
-        </RelativeLayout>
-
     </LinearLayout>
-
-
 </LinearLayout>

@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.laisontech.stscarddemo.R;
 import com.laisontech.stscarddemo.adapter.base_adapter.CommonAdapter;
@@ -13,6 +14,7 @@ import com.laisontech.stscarddemo.adapter.base_adapter.CommonViewHolder;
 import com.laisontech.stscarddemo.bean.HomeTab;
 import com.laisontech.stscarddemo.ui.activity.BuyActivity;
 import com.laisontech.stscarddemo.ui.activity.GoToBuyActivity;
+import com.laisontech.stscarddemo.ui.activity.OtherActivity;
 import com.laisontech.stscarddemo.ui.activity.ReadCardActivity;
 
 import java.util.List;
@@ -45,7 +47,7 @@ public class HomeTabAdapter extends CommonAdapter<HomeTab>{
                 }else if(position==1){
                     mContext.startActivity(new Intent(mContext,GoToBuyActivity.class));
                 }else if(position==2){
-
+                    Toast.makeText(mContext, "暂未开放此功能", Toast.LENGTH_SHORT).show();
                 }
             }
         });
