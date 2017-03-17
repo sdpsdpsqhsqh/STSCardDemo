@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Toast;
 
 import butterknife.ButterKnife;
 
@@ -12,7 +13,7 @@ import butterknife.ButterKnife;
  * Created by SDP on 2017/3/10.
  */
 public abstract class BaseActivity extends AppCompatActivity{
-
+    private Toast mToast;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,5 +41,12 @@ public abstract class BaseActivity extends AppCompatActivity{
         Intent intent = new Intent(this,clz);
         startActivity(intent);
     }
-
+    protected void showToast(String msg){
+        if (mToast==null){
+            mToast = Toast.makeText(this,msg,Toast.LENGTH_SHORT);
+        }else {
+            mToast.setText(msg);
+        }
+        mToast.show();
+    }
 }

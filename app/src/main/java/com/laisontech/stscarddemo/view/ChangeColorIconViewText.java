@@ -107,8 +107,8 @@ public class ChangeColorIconViewText extends View {
         return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, px, getResources().getDisplayMetrics());
     }
 
-    private int dp2px(int px) {
-        return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, px, getResources().getDisplayMetrics());
+    private float dp2px(float px) {
+        return (float) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, px, getResources().getDisplayMetrics());
     }
 
     @Override
@@ -164,9 +164,9 @@ public class ChangeColorIconViewText extends View {
         mTextPaint.setAlpha(255 - alpha);
         canvas.drawText(mText, mIconRect.left
                 + mIconRect.width() / 2
-                - mTextBound.width() / 2-dp2px(1),
+                - mTextBound.width() / 2-dp2px(1.5f),
                 mIconRect.bottom
-                        + mTextBound.height()-dp2px(1)
+                        + mTextBound.height()-dp2px(1.5f)
                 , mTextPaint);
     }
 
@@ -175,9 +175,9 @@ public class ChangeColorIconViewText extends View {
         mTextPaint.setAlpha(alpha);
         canvas.drawText(mText, mIconRect.left
                         + mIconRect.width() / 2
-                        - mTextBound.width() / 2-dp2px(1),
+                        - mTextBound.width() / 2-dp2px(1.5f),
                 mIconRect.bottom
-                        + mTextBound.height()-dp2px(1)
+                        + mTextBound.height()-dp2px(1.5f)
                 , mTextPaint);
     }
 

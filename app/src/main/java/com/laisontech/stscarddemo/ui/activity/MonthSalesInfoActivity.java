@@ -16,6 +16,7 @@ import com.laisontech.stscarddemo.utils.SystemSettingUtils;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import butterknife.InjectView;
 
@@ -40,9 +41,10 @@ public class MonthSalesInfoActivity extends BaseActivity {
         mWatchMonth = getIntent().getExtras().getString("Month");
         mActionBarView = SystemSettingUtils.setActionBar(this, false);
         //TODO 根据获取的月份，通过get或者post请求从网端获取到请求的数据，从而解析，将数据放在List中，这里先模拟数据
+        Random random = new Random();
         for(int i=0;i<20;i++){
             MonthBillItemInfo itemInfo = new MonthBillItemInfo();
-            itemInfo.setDate((System.currentTimeMillis()-10000000*i)+"");
+            itemInfo.setDate((System.currentTimeMillis()-random.nextInt(100000000)*i)+"");
             itemInfo.setRechargeMoney(20+i*13+"");
             mData.add(itemInfo);
         }

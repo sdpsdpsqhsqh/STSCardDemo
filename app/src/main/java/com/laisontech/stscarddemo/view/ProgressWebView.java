@@ -6,6 +6,7 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.util.AttributeSet;
 import android.view.KeyEvent;
+import android.view.MotionEvent;
 import android.view.View;
 import android.webkit.DownloadListener;
 import android.webkit.JsPromptResult;
@@ -92,13 +93,13 @@ public class ProgressWebView extends LinearLayout {
         // 设置可以支持缩放
         webSettings.setSupportZoom(true);
         // 设置默认缩放方式尺寸是far
-        webSettings.setDefaultZoom(WebSettings.ZoomDensity.FAR);
+        webSettings.setDefaultZoom(WebSettings.ZoomDensity.MEDIUM);
         // 设置出现缩放工具
         webSettings.setDisplayZoomControls(false);
         webSettings.setBuiltInZoomControls(true);
         webSettings.setUseWideViewPort(true);
         webSettings.setAppCacheEnabled(true);
-        webSettings.setDefaultFontSize(13);
+        webSettings.setDefaultFontSize(12);
 
         mWebView.loadUrl(url);
 
@@ -117,7 +118,6 @@ public class ProgressWebView extends LinearLayout {
             @Override
             public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error) {
                 super.onReceivedError(view, request, error);
-                view.loadUrl("file:///android_asset/error.html");
             }
 
             // 页面开始加载
@@ -220,5 +220,10 @@ public class ProgressWebView extends LinearLayout {
 
     public void refreshWeb() {
         mWebView.reload();
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        return true;
     }
 }

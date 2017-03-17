@@ -1,5 +1,7 @@
 package com.laisontech.stscarddemo.ui.activity;
 
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
@@ -54,5 +56,16 @@ public class SingleRechargeInfoActivity extends BaseActivity {
         mRechargeMoneySingle.setText(mItemInfo.getRechargeMoney());
         mRechargeAmountSingle.setText(mItemInfo.getRechargeMoney());
         mRechargePurchasesSingle.setText(Float.parseFloat(mItemInfo.getRechargeMoney())/10+"m³");
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        return super.onOptionsItemSelected(item);
     }
 }
